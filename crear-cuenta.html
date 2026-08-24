@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear cuenta - LinkRoom</title>
+
+    <link rel="stylesheet" href="crear-cuenta.css">
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <header class="navbar">
+
+        <div class="logo-contenedor">
+            <img src="LINKROOM.jpg" alt="Logo LinkRoom" class="logo-imagen">
+            <span class="logo-texto">LinkRoom</span>
+        </div>
+
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="#">Funciones</a>
+            <a href="#">Cursos</a>
+            <a href="#">Contacto</a>
+        </nav>
+
+        <div class="acciones">
+            <a href="registro.html" class="iniciar-sesion">
+                Iniciar sesión
+            </a>
+
+            <a href="crear-cuenta.html" class="boton-crear">
+                Crear cuenta
+            </a>
+        </div>
+
+    </header>
+
+
+    <!-- Contenido principal -->
+    <main class="contenedor">
+
+        <section class="tarjeta-registro">
+
+            <div class="encabezado">
+                <h1>Crear cuenta</h1>
+
+                <p>
+                    Crea tu cuenta en LinkRoom y comienza
+                    a organizar tu aprendizaje.
+                </p>
+            </div>
+
+
+            <form id="formularioRegistro">
+
+                <!-- Nombre -->
+                <div class="campo">
+                    <label for="nombre">Nombre completo</label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Escribe tu nombre"
+                        required
+                    >
+                </div>
+
+
+                <!-- Correo -->
+                <div class="campo">
+                    <label for="correo">Correo electrónico</label>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="ejemplo@correo.com"
+                        required
+                    >
+                </div>
+
+
+                <!-- Contraseña -->
+                <div class="campo">
+                    <label for="password">Contraseña</label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Crea una contraseña"
+                        required
+                    >
+                </div>
+
+
+                <!-- Confirmar contraseña -->
+                <div class="campo">
+                    <label for="confirmarPassword">
+                        Confirmar contraseña
+                    </label>
+
+                    <input
+                        type="password"
+                        id="confirmarPassword"
+                        name="confirmarPassword"
+                        placeholder="Repite tu contraseña"
+                        required
+                    >
+                </div>
+
+
+                <!-- Términos -->
+                <div class="terminos">
+
+                    <input
+                        type="checkbox"
+                        id="terminos"
+                        required
+                    >
+
+                    <label for="terminos">
+                        Acepto los términos y condiciones
+                    </label>
+
+                </div>
+
+
+                <!-- Mensaje de error -->
+                <p id="mensajeError" class="mensaje-error"></p>
+
+
+                <!-- Botón -->
+                <button type="submit" class="boton-registro">
+                    Crear cuenta
+                </button>
+
+            </form>
+
+
+            <div class="pie-tarjeta">
+
+                <p>
+                    ¿Ya tienes una cuenta?
+                    <a href="registro.html">
+                        Inicia sesión
+                    </a>
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="crear-cuenta.js"></script>
+
+</body>
+</html>

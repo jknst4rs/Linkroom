@@ -319,3 +319,13 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 
 });
+document.getElementById("colorButton").addEventListener("click", function () {
+cambiarColor();
+});
+
+// Función que cambia el color de fondo al hacer clic
+function cambiarColor() {
+    let colores = ["#3af1d9", "#66cdaa", "#9370db", "#24d800", "#42c53d", "#01acac"];
+    let colorAleatorio = colores[Math.floor(Math.random() * colores.length)];
+    document.body.style.backgroundColor = colorAleatorio;
+}

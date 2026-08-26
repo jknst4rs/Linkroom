@@ -1,11 +1,9 @@
-<<<<<<< HEAD
-/* ===================================
+HEAD
+/* 
 LINKROOM - ESTILOS PRINCIPALES
-DiseÃ±o en espaÃ±ol
-=================================== */
+Diseño en español
 
-
-/* CONFIGURACIÃ“N GENERAL */
+/* CONFIGURACIÖN GENERAL */
 
 
 * {
@@ -389,7 +387,7 @@ footer {
 
 
 
-/* =====formulario de registro===== */
+/* formulario de registro*/
 .formulario-seccion {
     width: 400px;
     max-width: 90%;
@@ -463,19 +461,19 @@ footer {
 
 .boton-curso:hover {
     background-color: #168de5;
-=======
-/* ===================================
+
+}
+/* 
 LINKROOM - ESTILOS PRINCIPALES
-DiseÃ±o en espaÃ±ol
-=================================== */
+Diseño en español*/
 
 
-/* CONFIGURACIÃ“N GENERAL */
+/* CONFIGURACIÓN GENERAL */
 
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 0; 
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
@@ -566,9 +564,6 @@ body {
     font-weight: 600;
     margin-right: 28px;
 }
-
-
-
 
 .boton-principal {
   background: var(--azul-celeste);
@@ -928,5 +923,5 @@ footer {
 
 .boton-curso:hover {
     background-color: #168de5;
->>>>>>> origin/main
+
 }
